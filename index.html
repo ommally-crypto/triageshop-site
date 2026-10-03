@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TriageShop – NFC-Bewertungskarten für Geschäfte in Bern</title>
+<meta name="description" content="Mehr Google-Bewertungen mit einem Tap: NFC-Bewertungskarten für Restaurants, Coiffeure, Garagen und Handwerker in Bern. Fertig eingerichtet, schreibgeschützt, Link jederzeit änderbar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{--ink:#14213D;--paper:#FBFBF8;--card:#FFFFFF;--line:#D9DEE7;--muted:#4A5568;--accent:#F2A65A;--deep:#1F3158;--soft:#BFD0E6}
+@media (prefers-color-scheme:dark){:root{--paper:#0F1830;--card:#1A2A4D;--line:#2B3E66;--ink:#FBFBF8;--muted:#BFD0E6;--deep:#14213D}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;line-height:1.55;font-size:18px}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.brand{font-weight:700;font-size:20px;letter-spacing:.3px;text-decoration:none}
+.brand span{color:var(--accent)}
+nav a{margin-left:20px;text-decoration:none;font-size:16px;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+.hero{background:#14213D;color:#FBFBF8;border-radius:24px;padding:56px 36px;margin:8px 0 56px}
+.pill{display:inline-block;background:var(--accent);color:#14213D;font-weight:700;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;padding:8px 16px;border-radius:30px}
+.hero h1{font-size:clamp(34px,6vw,60px);line-height:1.08;margin:20px 0 16px;max-width:760px}
+.hero p{font-size:20px;color:#BFD0E6;max-width:640px;margin:0 0 28px}
+.btn{display:inline-block;background:var(--accent);color:#14213D;font-weight:700;padding:14px 26px;border-radius:12px;text-decoration:none}
+.btn.ghost{background:transparent;color:#FBFBF8;border:1px solid #BFD0E6;margin-left:10px}
+section{margin:0 0 64px}
+h2{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h3{margin:0 0 8px;font-size:21px}
+.card p{margin:0;color:var(--muted);font-size:17px}
+.num{font-size:44px;font-weight:700;color:var(--accent);line-height:1;margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tags span{background:var(--card);border:1px solid var(--line);padding:10px 18px;border-radius:30px;font-weight:500}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+th,td{text-align:left;padding:16px 20px;border-bottom:1px solid var(--line);font-size:17px}
+th{background:var(--deep);color:#FBFBF8}
+td.price{font-weight:700;color:var(--accent);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.note{color:var(--muted);font-size:15px;margin-top:12px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer}
+details p{color:var(--muted);margin:10px 0 0}
+.contact{background:#14213D;color:#FBFBF8;border-radius:24px;padding:48px 36px;text-align:center}
+.contact p{color:#BFD0E6;margin:0 0 24px;font-size:20px}
+footer{padding:32px 0 48px;color:var(--muted);font-size:15px;text-align:center}
+@media (max-width:640px){nav{display:none}.hero{padding:40px 22px}.btn.ghost{margin:12px 0 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<a class="brand" href="/">Triage<span>Shop</span></a>
+<nav><a href="#ablauf">Ablauf</a><a href="#leistungen">Leistungen</a><a href="#preise">Preise</a><a href="#faq">Fragen</a><a href="#kontakt">Kontakt</a></nav>
+</header>
+
+<div class="hero">
+<span class="pill">NFC-Bewertungskarten · Bern</span>
+<h1>Mehr Google-Bewertungen. Mit einem Tap.</h1>
+<p>Der Kunde hält das Handy an die Karte, die Bewertungsseite Ihres Geschäfts öffnet sich. Kein Link suchen, keine App. Fertig eingerichtet für Geschäfte in Bern und Umgebung.</p>
+<a class="btn" href="mailto:triageshop76@gmail.com?subject=Anfrage%20Bewertungskarte">Karte anfragen</a>
+<a class="btn ghost" href="#ablauf">So funktioniert es</a>
+</div>
+
+<section id="problem">
+<h2>Zufriedene Kunden bewerten selten von selbst</h2>
+<div class="grid">
+<div class="card"><h3>Zu umständlich</h3><p>Geschäft googeln, Bewertungsseite suchen, Link finden. Dabei springen viele ab.</p></div>
+<div class="card"><h3>Vergessen</h3><p>Im Alltag geht die gute Absicht schnell unter.</p></div>
+<div class="card"><h3>Kein Anstoss</h3><p>Ohne Einladung bleibt die Meinung beim Kunden.</p></div>
+</div>
+</section>
+
+<section id="ablauf">
+<h2>So einfach geht es</h2>
+<div class="grid">
+<div class="card"><div class="num">1</div><h3>Karte ans Handy halten</h3><p>Zum Beispiel an der Kasse oder am Tisch. Keine App nötig.</p></div>
+<div class="card"><div class="num">2</div><h3>Bewertungsseite öffnet sich</h3><p>Direkt bei Google, mit Ihrem Geschäft.</p></div>
+<div class="card"><div class="num">3</div><h3>Sterne vergeben, Text schreiben</h3><p>Der Kunde braucht dafür ein Google-Konto.</p></div>
+</div>
+<p class="note">Handy ohne NFC? Auf der Rückseite der Karte steht ein QR-Code.</p>
+</section>
+
+<section id="leistungen">
+<h2>Das bekommen Sie</h2>
+<div class="grid">
+<div class="card"><h3>Fertig eingerichtet</h3><p>Karte mit dem Link zu Ihrem Google-Eintrag, sofort einsatzbereit.</p></div>
+<div class="card"><h3>Schreibgeschützt</h3><p>Niemand kann den Link auf der Karte überschreiben.</p></div>
+<div class="card"><h3>Link jederzeit änderbar</h3><p>Umzug oder neuer Name? Wir stellen um, Sie behalten die Karte.</p></div>
+<div class="card"><h3>QR-Code als Backup</h3><p>Für Handys ohne NFC.</p></div>
+<div class="card"><h3>Ersatz bei Verlust</h3><p>Neue Karte, die alte wird deaktiviert.</p></div>
+<div class="card"><h3>Einrichtung in Bern</h3><p>Wir testen die Karte gemeinsam mit Ihnen vor Ort.</p></div>
+</div>
+</section>
+
+<section id="fuer-wen">
+<h2>Für Geschäfte mit Laufkundschaft</h2>
+<div class="tags"><span>Restaurants</span><span>Cafés</span><span>Coiffeure</span><span>Zahnärzte</span><span>Garagen</span><span>Handwerker</span><span>Hotels und Airbnb</span><span>Physio und Kosmetik</span></div>
+</section>
+
+<section id="preise">
+<h2>Faire Preise</h2>
+<table>
+<tr><th>Angebot</th><th>Preis</th><th>Enthalten</th></tr>
+<tr><td>Einzelne Karte</td><td class="price">ab CHF 25</td><td>Eingerichtet, geschützt, mit QR-Backup</td></tr>
+<tr><td>5er-Paket</td><td class="price">ab CHF 100</td><td>Für mehrere Standorte oder Tische</td></tr>
+<tr><td>Link-Pflege (optional)</td><td class="price">CHF 50 pro Jahr</td><td>Link ändern, Ersatzkarten</td></tr>
+</table>
+<p class="note">Preise in CHF. Individuelles Angebot auf Anfrage.</p>
+</section>
+
+<section id="regeln">
+<h2>Sauber und regelkonform</h2>
+<div class="grid">
+<div class="card"><h3>Alle Kunden dürfen bewerten</h3><p>Nicht nur die zufriedenen auswählen. Google lehnt das ab.</p></div>
+<div class="card"><h3>Keine Gegenleistung</h3><p>Keine Rabatte oder Geschenke für Bewertungen. Das erlaubt Google nicht.</p></div>
+</div>
+<p class="note">Wir liefern das Werkzeug. Die Meinungen kommen von echten Kunden.</p>
+</section>
+
+<section id="faq">
+<h2>Häufige Fragen</h2>
+<details><summary>Brauchen meine Kunden eine App?</summary><p>Nein. Moderne iPhones (ab XS) und Android-Handys mit eingeschaltetem NFC lesen die Karte direkt.</p></details>
+<details><summary>Was, wenn sich mein Google-Eintrag ändert?</summary><p>Wir stellen die Weiterleitung um. Die Karte bleibt dieselbe.</p></details>
+<details><summary>Kann jemand die Karte umprogrammieren?</summary><p>Nein, die Karte ist schreibgeschützt.</p></details>
+<details><summary>Was passiert bei Verlust?</summary><p>Wir deaktivieren die alte Karte und liefern Ersatz.</p></details>
+</section>
+
+<section id="kontakt">
+<div class="contact">
+<h2>Lassen Sie uns sprechen</h2>
+<p>Fragen oder eine Karte für Ihr Geschäft in Bern?</p>
+<a class="btn" href="mailto:triageshop76@gmail.com?subject=Anfrage%20Bewertungskarte">triageshop76@gmail.com</a>
+</div>
+</section>
+
+<footer>© TriageShop · Bern · <a href="/impressum.html">Impressum</a></footer>
+</div>
+</body>
+</html>
