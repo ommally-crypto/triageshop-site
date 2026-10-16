@@ -4,13 +4,13 @@
 Aufruf:  python3 build.py [kunden.json] [anzahl]
 kunden.json (privat, NICHT ins Repo): {"k001": {"name": "Beispiel", "url": "https://g.page/r/XXXX/review"}}
 Nicht zugewiesene Nummern leiten auf die Startseite weiter.
-Nur https-Links zu google.com / g.page / goo.gl / maps.app.goo.gl sind erlaubt.
+Nur https-Links zu google.com / g.page / goo.gl / maps.app.goo.gl / linktr.ee sind erlaubt.
 """
 import json, os, sys
 from urllib.parse import urlparse
 from html import escape
 
-ALLOWED = ("google.com", "g.page", "goo.gl", "maps.app.goo.gl", "g.co")
+ALLOWED = ("google.com", "g.page", "goo.gl", "maps.app.goo.gl", "g.co", "linktr.ee")
 HOME = "https://triageshop.art/"
 
 def ok(url):
